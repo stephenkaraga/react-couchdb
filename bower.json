@@ -1,0 +1,17 @@
+{
+  "name": "react-couchdb",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "stephenkaraga <stephenkaraga@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/stephenkaraga/react-couchdb",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
