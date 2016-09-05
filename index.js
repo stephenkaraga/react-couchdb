@@ -1,7 +1,11 @@
-var express = require('express');
-var app = new express();
-var cradle = require('cradle');
-var db = new(cradle.Connection)().database('initial');
+"use strict"
+
+let port = 3000
+
+const express = require('express');
+const app = new express();
+const cradle = require('cradle');
+const db = new(cradle.Connection)().database('initial');
 
 app.use(express.static(__dirname + '/public'));
 
